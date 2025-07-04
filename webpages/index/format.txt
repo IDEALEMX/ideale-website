@@ -1,2 +1,1 @@
 #content# $HOME/website/webpages/index/content.md
-#content2# $HOME/website/webpages/index/content2.md
