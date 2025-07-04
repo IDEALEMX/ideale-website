@@ -1,1 +1,3 @@
-build
+#!/bin/bash
+
+bash $HOME/website/webpages/"$1"/build.bash
