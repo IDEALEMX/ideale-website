@@ -1,6 +1,7 @@
 #!/bin/bash
 
-html="../../html-templates/main-template.html"
 name="index.html"
+html="$HOME/website/html-templates/main-template.html"
+css="style.css"
 
-$(bash ../../ssg/ssg.bash ./format.txt "$html" > ../../renders/"$name")
+bash "$HOME/website/ssg/ssg.bash" "$HOME/website/webpages/index/format.txt" "$html" "$css" > "$HOME/website/renders/$name"
